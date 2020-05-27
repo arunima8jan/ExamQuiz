@@ -9,15 +9,15 @@
 
     <TextView
         android:id="@+id/question2_id"
-        android:layout_marginTop="60dp"
-        android:layout_marginLeft="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="cursive"
         android:text=""
-        android:fontFamily="sans-serif-black"
-        android:textStyle="bold"
+        android:textSize="20dp"
         android:textColor="@android:color/background_dark"
-        />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/second_activity_next_button"

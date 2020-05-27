@@ -8,12 +8,13 @@ import android.widget.TextView;
 public class FifthActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_fifth);
         TextView question_5;
         Button first_button,previous_button;
         question_5=(TextView)findViewById(R.id.question5_id);
         first_button=(Button) findViewById(R.id.fifth_activity_first_button);
         previous_button=(Button)findViewById(R.id.fifth_activity_previous_button);
-        question_5.setText("Q 5 -How many porets are accomodated for a new emulator?\n"
+        question_5.setText("Q 5 -How many ports are accomodated for a new emulator?\n"
                 + "\n"
                 + "Ans- 2");
         first_button.setOnClickListener(new View.OnClickListener() {

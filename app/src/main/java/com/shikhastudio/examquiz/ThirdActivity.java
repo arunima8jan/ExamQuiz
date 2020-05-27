@@ -22,7 +22,7 @@ public class ThirdActivity extends AppCompatActivity {
         // use findViewById() to get the Button and textview.
 
         previous_button = (Button)findViewById(R.id.third_activity_previous_button);
-        next_button=(Button)findViewById(R.id.third_activity_previous_button);
+        next_button=(Button)findViewById(R.id.third_activity_next_button);
         question3 = (TextView)findViewById(R.id.question3_id);
 
         // In question1 get the TextView use by findViewById()

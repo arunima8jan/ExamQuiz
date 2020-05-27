@@ -13,7 +13,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="cursive"
+        android:textSize="20dp"
         android:textColor="@android:color/background_dark"
         />
 
@@ -23,7 +24,7 @@
         android:layout_width="110dp"
         android:layout_height="40dp"
         android:layout_marginTop="200dp"
-        android:layout_marginLeft="100dp"
+        android:layout_marginLeft="50dp"
         android:text="Previous"
         android:background="#A2C4D3"
         android:textStyle="bold"
@@ -31,13 +32,13 @@
         android:textSize="15sp" />
     <Button
         android:id="@+id/third_activity_next_button"
-        android:layout_width="110dp"
+        android:layout_width="90dp"
         android:layout_height="40dp"
         android:layout_marginTop="200dp"
-        android:layout_marginLeft="100dp"
+        android:layout_marginLeft="200dp"
         android:text="Next"
-        android:background="#A2C4D3"
         android:textStyle="bold"
+        android:background="#A2C4D3"
         android:textColor="@android:color/background_dark"
         android:textSize="15sp" />
 

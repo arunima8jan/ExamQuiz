@@ -12,8 +12,8 @@ public class FourthActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fourth);
-        next_button=(Button)findViewById(R.id.fourth_activity_previous_button);
-        previous_button=(Button)findViewById(R.id.fourth_activity_next_button);
+        next_button=(Button)findViewById(R.id.fourth_activity_next_button);
+        previous_button=(Button)findViewById(R.id.fourth_activity_previous_button);
         question_4=(TextView)findViewById(R.id.question4_id);
         question_4.setText("Q 4 - No. of key components in android architecture?\n"
                 + "\n"
@@ -29,6 +29,7 @@ public class FourthActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(FourthActivity.this,ThirdActivity.class);
+                startActivity(intent);
             }
         });
     }
